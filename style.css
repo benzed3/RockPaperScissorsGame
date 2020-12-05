@@ -19,10 +19,17 @@ header {
 /*styling for start and results text
 */
 
-#results {
+#resultText {
     text-align:center;
 }
 
 /*styling for win/lose
 */
+
+.result {
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
 
