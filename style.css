@@ -6,3 +6,23 @@ header {
     text-align: center;
     font-size: 45px;
 }
+
+/*styling for container
+*/
+.row {
+    height: 75px;
+}
+
+/*styling for images
+*/
+
+/*styling for start and results text
+*/
+
+#results {
+    text-align:center;
+}
+
+/*styling for win/lose
+*/
+
