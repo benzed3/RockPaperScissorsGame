@@ -24,13 +24,20 @@ h1 {
 */
 
 #imgDiv {
-    height: 100px;
+    height: 150px;
 }
 
-img {
-    width: 33%;
+.imgDiv2 {
     float: left;
+    width: 33%;
 }
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
 
 /*styling for start and results text
 */
