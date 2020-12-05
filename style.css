@@ -32,4 +32,16 @@ header {
     text-align: center;
 }
 
+#win {
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+#lose {
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
 
