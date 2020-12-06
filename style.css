@@ -68,4 +68,19 @@ h1 {
     text-align: center;
 }
 
+/* media queries
+*/
+
+@media screen and (max-width: 380px) {
+
+    header {
+        margin-bottom: 75px;
+    }
+
+    #imgDiv {
+        height: 75px;
+    }
+
+}
+
 
