@@ -6,14 +6,16 @@ $(document).ready(function () {
 
     $(".pick").on("click", function () {
 
-        var choice = $(this).data();
+        var choice = $(this).val();
         var compChoice = Math.floor(Math.random() * 3) + 1;
 
-        console.log(choice);
+        alert(choice);
         console.log(compChoice);
 
-        if (parseInt(choice) === parseInt(compChoice)) {
-            $("#resultText").html("<h3>Tie!!</h3>");
+        if (compChoice > choice) {
+            winCount++;
+            loseCount--;
+            console.log(winCount);
         }
 
     });
