@@ -12,8 +12,9 @@ $(document).ready(function () {
         console.log(choice);
         console.log(compChoice);
 
-        if (compChoice === 1 && choice === 2) {
-            alert("win!");
+        if (parseInt(compChoice) === 1 && parseInt(choice) === 2) {
+            winCount++;
+            $("#win").html(winCount)
         }
 
     });
