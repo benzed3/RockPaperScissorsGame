@@ -1,4 +1,4 @@
-//image clicks//
+//button clicks//
 $(document).ready(function () {
 
     var winCount = 0;
@@ -9,13 +9,11 @@ $(document).ready(function () {
         var choice = $(this).val();
         var compChoice = Math.floor(Math.random() * 3) + 1;
 
-        alert(choice);
+        console.log(choice);
         console.log(compChoice);
 
-        if (compChoice > choice) {
-            winCount++;
-            loseCount--;
-            console.log(winCount);
+        if (compChoice === 1 && choice === 2) {
+            alert("win!");
         }
 
     });
