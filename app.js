@@ -12,9 +12,38 @@ $(document).ready(function () {
         console.log(choice);
         console.log(compChoice);
 
-        if (parseInt(compChoice) === 1 && parseInt(choice) === 2) {
+        if (parseInt(compChoice) === parseInt(choice)) {
+            $("#resultText").html("<h3>Tied!!</h3>");
+        }
+        else if (parseInt(choice) === 1 && parseInt(compChoice) === 2) {
+            $("#resultText").html("<h3>You Lose!!</h3>");
+            loseCount++;
+            $("#lose").html(loseCount);
+        }
+        else if (parseInt(choice) === 1 && parseInt(compChoice) === 3) {
+            $("#resultText").html("<h3>You Win!!</h3>");
             winCount++;
-            $("#win").html(winCount)
+            $("#win").html(winCount);
+        }
+        else if (parseInt(choice) === 2 && parseInt(compChoice) === 1) {
+            $("#resultText").html("<h3>You Win!!</h3>");
+            winCount++;
+            $("#win").html(winCount);
+        }
+        else if (parseInt(choice) === 2 && parseInt(compChoice) === 3) {
+            $("#resultText").html("<h3>You Lose!!</h3>");
+            loseCount++;
+            $("#lose").html(loseCount);
+        }
+        else if (parseInt(choice) === 3 && parseInt(compChoice) === 1) {
+            $("#resultText").html("<h3>You Lose!!</h3>");
+            loseCount++;
+            $("#lose").html(loseCount);
+        }
+        else if (parseInt(choice) === 3 && parseInt(compChoice) === 2) {
+            $("#resultText").html("<h3>You Win!!</h3>");
+            winCount++;
+            $("#win").html(winCount);
         }
 
     });
