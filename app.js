@@ -18,6 +18,7 @@ $(document).ready(function () {
         else if (parseInt(choice) === 1 && parseInt(compChoice) === 2) {
             $("#resultText").html("<h3>You Lose!!</h3>");
             loseCount++;
+            $(".imgDiv2").addClass("border");
             $("#lose").html(loseCount);
         }
         else if (parseInt(choice) === 1 && parseInt(compChoice) === 3) {
