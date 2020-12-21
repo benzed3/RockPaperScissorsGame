@@ -56,6 +56,15 @@ h1 {
     transform: translate(-50%, -50%);
 }
 
+.pick {
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+    font-family: 'Anton', sans-serif;
+}
+
 /*styling for start and results text
 */
 
