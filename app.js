@@ -28,7 +28,7 @@ $(document).ready(function () {
             $("#lose").html(loseCount);
         }
         else if (parseInt(choice) === 1 && parseInt(compChoice) === 3) {
-            $("#resultText").html("<h3 style='color:green;'>You Win!!</h3>");
+            $("#resultText").html("<h3 style='color:green;'>You Win!! You beat scissors!</h3>");
             $("#img1").css("opacity", 1);
             $("#img2").css("opacity", 0);
             $("#img3").css("opacity", 0);
@@ -36,7 +36,7 @@ $(document).ready(function () {
             $("#win").html(winCount);
         }
         else if (parseInt(choice) === 2 && parseInt(compChoice) === 1) {
-            $("#resultText").html("<h3 style='color:green;'>You Win!!</h3>");
+            $("#resultText").html("<h3 style='color:green;'>You Win!! You beat rock!</h3>");
             $("#img1").css("opacity", 0);
             $("#img2").css("opacity", 1);
             $("#img3").css("opacity", 0);
@@ -67,7 +67,7 @@ $(document).ready(function () {
             $("#lose").html(loseCount);
         }
         else if (parseInt(choice) === 3 && parseInt(compChoice) === 2) {
-            $("#resultText").html("<h3 style='color:green;'>You Win!!</h3>");
+            $("#resultText").html("<h3 style='color:green;'>You Win!! You beat paper!</h3>");
             $("#img1").css("opacity", 0);
             $("#img2").css("opacity", 0);
             $("#img3").css("opacity", 1);
