@@ -1,6 +1,5 @@
 /*header styling
 */
-
 header {
     height: 50px;
     text-align: center;
@@ -102,6 +101,14 @@ h1 {
 
 /* media queries
 */
+
+@media screen and (max-width: 541px) {
+
+    #imgDiv {
+        height: 90px;
+    }
+
+}
 
 @media screen and (max-width: 380px) {
 
