@@ -277,11 +277,15 @@ h1 {
 @media screen and (max-width: 281px) and (max-height: 654px) {
 
     header {
-        margin-bottom: 65px;
+        margin: 20px 0 45px 0;
+    }
+
+    h1 {
+        font-size: 1.8rem;
     }
 
     #imgDiv {
-        height: 45px;
+        height: 40px;
     }
 
 }
