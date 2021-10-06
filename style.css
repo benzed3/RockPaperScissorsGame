@@ -301,7 +301,11 @@ h1 {
     }
 
     #imgDiv {
-        height: 55px;
+        height: 40px;
+    }
+
+    .center {
+        width: 35%;
     }
 
     #pickText {
