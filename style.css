@@ -180,6 +180,10 @@ h1 {
 
 @media screen and (max-width: 412px) and (max-height: 824px) {
 
+    header {
+        margin: 30px 0 30px 0;
+    }
+
     h1 {
         font-size: 2.1rem;
     }
