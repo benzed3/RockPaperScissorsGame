@@ -232,7 +232,15 @@ h1 {
         margin-bottom: 25px;
     }
 
+    h1 {
+        font-size: 2rem;
+    }
+
     #imgDiv {
+        height: 50px;
+    }
+
+    #pickText {
         height: 50px;
     }
 
