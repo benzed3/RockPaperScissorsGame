@@ -132,6 +132,10 @@ h1 {
         margin: 30px 0 30px 0;
     }
 
+    h1 {
+        font-size: 2.1rem;
+    }
+
     #imgDiv {
         height: 90px;
     }
